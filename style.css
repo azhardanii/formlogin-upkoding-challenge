@@ -371,6 +371,10 @@ body {
     margin-right: 15px;
 }
 
+footer {
+    display: none;
+}
+
 @media (max-width: 576px) {
     body {
         overflow: scroll;
@@ -408,7 +412,8 @@ body {
     }
 
     footer {        
-        width: 100%;                      
+        display: block;                  
+        width: 100%;    
     }
 
     .footer {        
